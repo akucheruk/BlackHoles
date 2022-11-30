@@ -1,0 +1,18 @@
+plugins {
+    id 'java'
+}
+
+group 'com.akucheruk'
+version '1.0-SNAPSHOT'
+description 'Test Black Hole game'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+}
+
+test {
+    useJUnitPlatform()
+}
